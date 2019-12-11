@@ -15,7 +15,6 @@ spec:
   type: LoadBalancer 
   selector:
     app: slbdemo
-    deployment: slbdemo-8
     deploymentconfig: slbdemo
     group: com.example
     provider: fabric8
